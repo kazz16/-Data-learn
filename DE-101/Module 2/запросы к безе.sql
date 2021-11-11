@@ -1,8 +1,8 @@
 /*Overview (обзор ключевых метрик) 
 Total Sales, Total Profit, Profit Ratio, 
 Profit per Order, Sales per Customer,Avg. Discount
-Monthly Sales by Segment ( табличка и график)
-Monthly Sales by Product Category (табличка и график)*/
+Monthly Sales by Segment 
+Monthly Sales by Product Category*/
 
 select 
 	round (sum (sales)) as "total_sale, $",
@@ -72,18 +72,3 @@ group by
 	region
 order by
 "sale, $" desc
-
-
-	
-	
-
-
-
-
-Customer Ranking
-Sales per region
-	
-
-
-	
-
